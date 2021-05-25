@@ -10,10 +10,7 @@ function DevLanguageCard() {
                 <h1 className="dev-lang-card-lang-name"> JavaScript</h1>
                 <h2 className="dev-lang-card-num-of-courses"> 11 <span>Courses</span></h2>
                 <h2 className="take-a-look">Take a look<i className="fas fa-angle-right"></i></h2> 
-                </div>
-
-          
-          
+                </div>          
         </div>
     )
 }

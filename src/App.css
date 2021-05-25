@@ -7,3 +7,8 @@
 body{
     background-color: #0f0f0f;;
 }
+:root{
+    --primary-color: #0f0f0f;
+    --secondary-color:#3a3838;
+    --third-color:rgb(252, 82, 111);
+}

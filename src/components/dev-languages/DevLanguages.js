@@ -20,7 +20,7 @@ function DevLanguages() {
                 <p className="trending-technologies-text">Not sure what technologies to focus on? The Technology Index ranks 850+ technologies by their relative popularity. See what’s topping the charts and get recommended courses to skill up. </p>
 
                 <a>view the index <i className="fas fa-angle-right"></i> </a>
-</div>
+                </div>
            </div>
         </div>
     )

@@ -42,7 +42,7 @@
 }
 .latest-features-text i{
     margin-left: 5px;
-   color:rgb(252, 82, 111);
+   color:var(--third-color);
 }
 .see-what-new{
     font-size: 16px;
