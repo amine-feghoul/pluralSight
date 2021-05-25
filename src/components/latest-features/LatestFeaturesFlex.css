@@ -1,0 +1,7 @@
+.latest-features-flex-wrapper{
+    width: 100%;
+    display: flex;
+    padding: 100px 20px;
+    justify-content: space-between;
+    height: min-content;
+}

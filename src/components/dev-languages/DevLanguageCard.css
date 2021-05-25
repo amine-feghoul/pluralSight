@@ -1,0 +1,55 @@
+.dev-language-card-container{
+    background-color:#222222 ;
+    color: white;
+    padding: 15px;
+    height: max-content;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+}
+.dev-lang-card-path{
+    font-size: 15px;
+    color: rgb(252, 82, 111);
+    margin-bottom: 10px;
+}
+.dev-lang-card-lang-name{
+    font-size: 22px;
+    font-weight: normal;
+}
+.dev-lang-card-num-of-courses{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.dev-lang-card-num-of-courses span{
+    color: rgb(139, 138, 138);
+}
+.take-a-look{
+    font-size: 18px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.take-a-look i{
+    align-self: flex-end;
+    margin-left: 5px;
+    color:rgb(252, 82, 111);
+    transition: all 1s ease;
+}
+.dev-language-card-container:hover {
+    cursor: pointer;
+ 
+}
+.dev-language-card-container:hover .take-a-look i{
+    cursor: pointer;
+    margin-left: 15px;
+}
+.dev-language-icon{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:5%;
+    right: -3%;
+}

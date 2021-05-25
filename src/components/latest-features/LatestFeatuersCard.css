@@ -1,0 +1,13 @@
+.latest-features-card-container{
+    background-color: #3a3838;
+    flex-basis: 32%;
+    padding: 20px;
+    min-height: 60vh;
+    border-radius: 10px;
+}
+.latest-features-card-wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly   ;
+}
