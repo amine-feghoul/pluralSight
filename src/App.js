@@ -11,13 +11,19 @@ function App() {
 
 const routes =[
   {
-    path:"/",
+    path:"/home",
     page: HomePage,
   },
 
 ]
-const serveRoutes = routes.map((route)=>{<Route exact path={route.path} component={route.page()}></Route>})
-
+const serveRoutes = routes.map((route)=>{<Route exact path={route.path} component={route.page}></Route>})
+const displayPage =()=>{
+  return(
+    routes.map((route)=><Route path={route.path} exact component={route.page}>
+  
+    </Route>)
+    )
+}
   return (
     <div className="App">
 
@@ -25,8 +31,10 @@ const serveRoutes = routes.map((route)=>{<Route exact path={route.path} componen
       <Router>  
       <Navbar/>
         <Switch>
-        <Route path='/' exact component={HomePage}/>
-          
+
+          {
+            displayPage()
+          }
         </Switch>
       </Router>
     </div>
