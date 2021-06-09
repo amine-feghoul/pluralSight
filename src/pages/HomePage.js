@@ -1,8 +1,9 @@
 import React from 'react'
 import DevLanguages from '../components/dev-languages/DevLanguages'
+import KeepUpToDate from '../components/keep-up-to-date/KeepUpToDate'
 import Landing from '../components/landing/Landing'
 import LatestFeatures from '../components/latest-features/LatestFeatures'
-import Navbar from '../components/navbar/Navbar'
+
 
 function HomePage() {
     return (
@@ -10,7 +11,7 @@ function HomePage() {
             <Landing/>
             <DevLanguages/>
             <LatestFeatures/> 
-            {/* {alert("hi")} */}
+            <KeepUpToDate/>
         </div>
     )
 }

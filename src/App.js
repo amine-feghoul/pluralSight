@@ -6,6 +6,7 @@ import DevLanguages from "./components/dev-languages/DevLanguages"
 import LatestFeatures from "./components/latest-features/LatestFeatures"
 import HomePage from './pages/HomePage';
 import {BrowserRouter as Router ,Route,Switch } from "react-router-dom"
+import Footer from './components/footer/Footer';
 
 function App() {
 
@@ -36,6 +37,7 @@ const displayPage =()=>{
             displayPage()
           }
         </Switch>
+        <Footer/>
       </Router>
     </div>
   );

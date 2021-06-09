@@ -1,0 +1,74 @@
+.keep-up-to-date-container{
+    
+    width: 100%;
+    padding: 50px 20px;
+    color: white;
+  
+ }
+
+.keep-up-to-date-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,2fr));
+    grid-column-gap: 10px ;
+    grid-row-gap: 30px;
+}
+.keep-up-to-date-title{
+    font-size: 16px;
+    text-transform: uppercase   ;
+    margin-bottom: 20px;
+    color: var(--third-color);
+}
+
+.keep-up-to-date-ultra-title{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.scaling-up-container{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.scaling-up-wrapper{
+    margin-top: 40px;
+    height:80vh;
+    width: 100%;
+    display: flex;
+    padding: 40px 00px;
+}
+.scaling-up-pic{
+    width: 60%;
+    flex-basis: 60%;
+    height: 100%;
+    
+}
+.scaling-up-pic img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.scaling-up-text{
+    flex-basis: 40%;
+    background: linear-gradient( 100.37deg, rgb(236, 0, 139) 0%, rgb(241, 90, 34) 100%);;
+    display: flex;
+    flex-direction: column;
+    padding:100px  100px;
+    justify-content: space-around;
+    color: white;
+}
+.scaling-up-title{
+    font-size: 28px;
+} 
+.scaling-up-text p{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.vmware-logo{
+    height: auto;
+    max-width: 120px;
+}
+.scaling-up-btn{
+    background-color: var(--primary-color);
+    width: max-content;
+    padding: 20px 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

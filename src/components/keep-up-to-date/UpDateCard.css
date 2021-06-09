@@ -1,0 +1,34 @@
+.up-date-card-container{
+    height: 40vh;
+    width: 100%;
+    
+    border-radius:20px ;
+}
+.up-date-card-pic{
+    height: 50%;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.up-date-card-wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.up-date-card-pic img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    
+}
+.up-date-card-text{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: space-evenly;
+}
