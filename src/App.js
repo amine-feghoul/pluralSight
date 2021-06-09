@@ -1,9 +1,6 @@
 
 import './App.css';
 import Navbar from "./components/navbar/Navbar"
-import Landing from './components/landing/Landing'
-import DevLanguages from "./components/dev-languages/DevLanguages"
-import LatestFeatures from "./components/latest-features/LatestFeatures"
 import HomePage from './pages/HomePage';
 import {BrowserRouter as Router ,Route,Switch } from "react-router-dom"
 import Footer from './components/footer/Footer';
@@ -12,7 +9,7 @@ function App() {
 
 const routes =[
   {
-    path:"/home",
+    path:"/",
     page: HomePage,
   },
 

@@ -5,10 +5,18 @@
     font-family: 'Raleway', sans-serif;
 }
 body{
-    background-color: #0f0f0f;;
+    background-color: #0f0f0f;
+    display: flex;
+  
 }
 :root{
     --primary-color: #0f0f0f;
     --secondary-color:#3a3838;
     --third-color:rgb(252, 82, 111);
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
 }
