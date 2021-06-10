@@ -5,3 +5,12 @@
     justify-content: space-between;
     height: min-content;
 }
+@media screen and (max-width:1000px) {
+    .latest-features-flex-wrapper{
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+}

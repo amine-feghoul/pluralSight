@@ -1,5 +1,6 @@
 .latest-features-container{
-    height: 170vh;
+    min-height: 170vh;
+    width: 100%;
     background-color: #222222;
     padding: 100px 50px;
     color: white;
@@ -8,14 +9,16 @@
 .latest-features-wrapper{
     background-color: #3a3838;
     border-radius: 10px;
-    height: 58vh;
+    height: 40%;
     display: flex;
     width: 100%;
     align-content: center;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .latest-features-text{
+    width: 100%;
     height: 100%;
     flex-basis: 50%;
     padding: 20px;
@@ -28,11 +31,14 @@
 .latest-featues-pic{
     flex-basis: 50%;
     height: 100%;
+    width: 100%;
+    background-color:transparent;
 }
 .latest-featues-pic  img{
     width: 100%;
     height: 100%;
-    object-fit: contain   ;
+    object-fit: cover   ;
+    
 }
 
 .latest-features-text a {
@@ -42,7 +48,7 @@
 }
 .latest-features-text i{
     margin-left: 5px;
-   color:var(--third-color);
+    color:var(--third-color);
 }
 .see-what-new{
     font-size: 16px;
@@ -58,4 +64,31 @@
 .skills h2{
     margin-bottom: 20px;
     font-size: 32px;
+}
+@media screen and (max-width:950px) {
+    
+    .latest-features-title{
+        font-size:26px
+    }
+    .skills h2{
+        font-size: 22px;
+    }
+    .skills p{
+        font-size: 14px;
+    }
+    .skills-learn-more{
+        font-size: 14px;
+    }
+
+    .latest-features-wrapper{
+        
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .latest-featues-pic  img{
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        
+    }
 }

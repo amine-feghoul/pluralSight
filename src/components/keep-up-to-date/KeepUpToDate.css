@@ -29,21 +29,22 @@
 }
 .scaling-up-wrapper{
     margin-top: 40px;
-    height:80vh;
+    min-height:80vh;
     width: 100%;
     display: flex;
     padding: 40px 00px;
 }
 .scaling-up-pic{
-    width: 60%;
+    
     flex-basis: 60%;
-    height: 100%;
+    height: 80vh;
     
 }
 .scaling-up-pic img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    
 }
 .scaling-up-text{
     flex-basis: 40%;
@@ -71,4 +72,13 @@
     padding: 20px 40px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+@media screen and (max-width:700px) {
+    .scaling-up-wrapper{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
 }

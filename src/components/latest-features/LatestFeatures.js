@@ -18,7 +18,7 @@ function LatestFeatures() {
                     <p>Your teams need the right skills and a place to practice to ensure they’re ready to deliver on your cloud objectives. Labs enable learners to get hands-on practice in a provisioned cloud environment in AWS, Azure and Google Cloud (Google Cloud powered by Quiklabs).</p>
                    
                 </div>    
-                <a>Learn more <i className="fas fa-angle-right"></i></a>
+                <a className="skills-learn-more">Learn more <i className="fas fa-angle-right"></i></a>
         </div> 
              <div className="latest-featues-pic">
                     <img src={cloud_labs} />

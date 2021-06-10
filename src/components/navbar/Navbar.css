@@ -1,5 +1,5 @@
 .navbar-container{
-    width: 100%;
+    width: 100vw;
     height: 90px;
     color: white    ;
     background-color: #0f0f0f;
@@ -9,6 +9,10 @@
     padding: 0px   20px;
     align-items: center;
     font-weight: bold;
+    position: fixed;
+    top: 0;
+    z-index: 900;
+    box-shadow: 3px 3px 10px 10px rgba(0, 0, 0, 0.2);
 }
 .navbar-container-mobile{
     display:none;
@@ -84,13 +88,19 @@
 @media screen and (max-width:900px) {
     .navbar-container{
         display: none;
+
         }
     .navbar-container-mobile{
         display: flex;
         align-items: center ;
         height: 90px;
+        width: 100vw;
         background-color: var(--primary-color);
         z-index: 1000;
+        position: fixed;
+        top:0;
+        box-shadow: 3px 3px 10px 10px rgba(0, 0, 0, 0.2);
+
     }
     .nav-links-list{
         flex-direction: column;
@@ -98,12 +108,15 @@
         position: absolute;
         right: -100%    ;
         top: 90px;
-        width: 100vw;
+        width: 100%;
+        opacity: 0;
         padding: 50px;
         align-items: start ;
         background-color: #0f0f0f;
         z-index:800;
         transition: all ease 250ms;
+       
+        
     }
     .navbar-search-sign-in i,.fa-bars{
         display: block;
@@ -112,6 +125,9 @@
         transition: all ease 250ms;
     }
     .active{
-        right:0;
+        
+        display: flex;
+        opacity: 1;
+        transform: translateX(-100%);
     }
 }

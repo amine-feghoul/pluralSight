@@ -3,7 +3,7 @@
     height:75vh;
     background: url("../../images/landing.jpg");
     background-position:center;
-    background-position: center;
+
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -74,4 +74,36 @@
 .fade-out{
   top: -20%;
     opacity: 0;
+}
+
+
+
+@media screen and (max-width:900px) {
+  .landing-content h1{
+        font-size: 30px;
+  }  
+  .landing-content p{
+      font-size: 18px;
+  }
+  .landing-btns{
+      flex-direction: column;
+  }
+  .landing-btns a{
+      width: 80%;
+      margin: 10px 20px;
+  }
+}
+
+@media screen and (max-width:700px) {
+    .landing-container{
+        background-position-x:right ;
+        background-position-y: center;
+        justify-content: center;
+    }
+    .landing-content{
+        flex-basis: 60%;
+    }
+    .landing-space-holder{
+        flex-basis: 0;
+    }
 }
