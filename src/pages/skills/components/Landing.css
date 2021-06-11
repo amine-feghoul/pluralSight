@@ -1,0 +1,89 @@
+.skills-landing-pics{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    position: absolute;
+    top:0;
+    left: 30px;
+}
+.skills-logo{
+    width: 90%;
+    margin-bottom: -30px;
+}
+.skills-landing-container{
+    width: 100%;
+    padding: 50px 20px;
+    background-image: url('../../../images/skill_page/skills_landing.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+    height: max-content;
+}
+.skills-landing-wrapper{
+    display: flex;
+   
+    min-height: 50vh;
+    max-height: max-content;
+    justify-items: center;
+    padding-left: 50px;
+    width: 100%;
+    position: relative;
+}
+.skills-landing-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    justify-content: flex-start;
+    width: 50%;;
+    height: 100%;
+}
+/* .skills-landing-text{
+    width: 60%;
+    align-self: center;
+    justify-self: center;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+} */
+.skills-landing-text h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.skills-landing-text p{
+    width: 90%;
+    margin-bottom: 20px;
+    display: block;
+}
+.skills-landing-text a{
+    width: max-content;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    background:  linear-gradient( 100.37deg,  rgb(241, 90, 34) 0%,rgb(236, 0, 139) 100%);
+}
+
+@media screen and (max-width:1000px) {
+    .skills-landing-container{
+        background-size: cover;
+        background-position: center;
+    }
+    .skills-landing-text {
+       width: 60%;
+        
+    }
+    .skills-landing-text h1{
+        font-size: 30px;
+    }
+
+    /* .skills-landing-container{
+        background-size: cover;
+        background-position: center;
+    } */
+    
+}
+/* .skills-landing-wrapper{
+    height: 80vh;
+} */

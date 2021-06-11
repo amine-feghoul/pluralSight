@@ -1,9 +1,11 @@
-
+import React from 'react'
 import './App.css';
 import Navbar from "./components/navbar/Navbar"
 import HomePage from './pages/HomePage';
 import {BrowserRouter as Router ,Route,Switch } from "react-router-dom"
 import Footer from './components/footer/Footer';
+import Skills from './pages/skills/Skills';
+
 
 function App() {
 
@@ -11,13 +13,19 @@ const routes =[
   {
     path:"/",
     page: HomePage,
+    id: 1
   },
+  {
+    path:"/products",
+    page: Skills,
+    id: 2
+  }
 
 ]
-const serveRoutes = routes.map((route)=>{<Route exact path={route.path} component={route.page}></Route>})
+
 const displayPage =()=>{
   return(
-    routes.map((route)=><Route path={route.path} exact component={route.page}>
+    routes.map((route)=><Route key = {route.id} path={route.path} exact component={route.page}>
   
     </Route>)
     )

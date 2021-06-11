@@ -1,7 +1,6 @@
 import React,{useEffect,useState} from 'react'
-let pos = 0
-let opa = 1
-function Word(props) {
+
+function Word() {
     const array=[" Skills"," career"," Projects"]
     const[text,setText] = useState("Skills");
     let count = 0;

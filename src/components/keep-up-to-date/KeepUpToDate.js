@@ -2,10 +2,10 @@ import React from 'react'
 import UpDateCard from './UpDateCard'
 import './KeepUpToDate.css'
 
-import img1 from '../../images/keep_up_to_date/keep_up_to_date_img1.jpg'
-import img2 from '../../images/keep_up_to_date/keep_up_to_date_img2.jpg'
-import img3 from '../../images/keep_up_to_date/keep_up_to_date_img3.jpg'
-import img4 from '../../images/keep_up_to_date/keep_up_to_date_img4.jpg'
+import img1 from "../../images/keep_up_to_date/keep_up_to_date_img1.jpg"
+import img2 from "../../images/keep_up_to_date/keep_up_to_date_img2.jpg"
+import img3 from "../../images/keep_up_to_date/keep_up_to_date_img3.jpg"
+import img4 from "../../images/keep_up_to_date/keep_up_to_date_img4.jpg"
 
 import vmwarelogo from '../../images/keep_up_to_date/vmware-logo.png'
 import scalingUpPic from '../../images/keep_up_to_date/scaling-up-pic.png'
@@ -16,10 +16,10 @@ function KeepUpToDate() {
             <h3 className="keep-up-to-date-title">Keep Up To Date</h3>
             <h1 className="keep-up-to-date-ultra-title"> Discover more about Pluralsight</h1>
             <div className="keep-up-to-date-wrapper">
-                <UpDateCard src={img1}/>
-                <UpDateCard src={img2}/>
-                <UpDateCard src={img3}/>
-                <UpDateCard src={img4}/>
+                <UpDateCard src={img1} alt="img"/>
+                <UpDateCard src={img2} alt="img"/>
+                <UpDateCard src={img3} alt="img"/>
+                <UpDateCard src={img4} alt="img"/>
             </div>
 
             </div>

@@ -13,7 +13,7 @@ function Navbar() {
                
                 <ul className="nav-links-list"> 
                     <li className="nav-link"> <a href="/#" > Platform</a> </li>
-                    <li className="nav-link"> <a href="/#"> Products</a> </li>
+                    <li className="nav-link"> <a href="/products"> Products</a> </li>
                     <li className="nav-link"> <a href="/#"> Resources</a> </li>
                     <li className="nav-link"> <a href="/#"> For Individuals</a> </li>
                 </ul>
@@ -34,7 +34,7 @@ function Navbar() {
                
                 <ul className={click? "nav-links-list active": "nav-links-list"}> 
                     <li className="nav-link"> <a href="/#" > Platform</a> </li>
-                    <li className="nav-link"> <a href="/#"> Products</a> </li>
+                    <li className="nav-link"> <a href="/products"> Products</a> </li>
                     <li className="nav-link"> <a href="/#"> Resources</a> </li>
                     <li className="nav-link"> <a href="/#"> For Individuals</a> </li>
                     <li className="search-sign-in-item"> <a href="/">Sign in</a></li>
