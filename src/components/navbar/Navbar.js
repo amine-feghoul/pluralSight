@@ -11,6 +11,7 @@ function Navbar() {
                     <li className="nav-link"> <a> Products</a> </li>
                     <li className="nav-link"> <a> Resources</a> </li>
                     <li className="nav-link"> <a> For Individuals</a> </li>
+                    <li className="nav-link"> <a> For Individuals</a> </li>
                 </ul>
             </div>
             <div className="navbar-search-sign-in">
