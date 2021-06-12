@@ -71,7 +71,7 @@
         background-position: center;
     }
     .skills-landing-text {
-       width: 60%;
+       width: 80%;
         
     }
     .skills-landing-text h1{
@@ -87,3 +87,13 @@
 /* .skills-landing-wrapper{
     height: 80vh;
 } */
+
+@media screen and (max-width:400px) {
+    
+    .skills-landing-text{
+        width: 100%;
+    }
+    .skills-landing-text h1 {
+        font-size: 26px;
+    }
+}
