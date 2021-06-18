@@ -6,6 +6,7 @@ function ScrollNavbar() {
     const handleClick=()=>{
         setClick(!click)
     }
+
     return (
         <div className="scroll-navbar-container">
             <div className="scroll-navbar-wrapper">
