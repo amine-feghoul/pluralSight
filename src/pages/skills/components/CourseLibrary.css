@@ -1,14 +1,16 @@
 .course-library-container{
+    padding-top: 30px;
 width: 100%;
 display: flex;
 justify-content: center;
+z-index: 0;
 }
 .course-library-wrapper{
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
-    width: 80%;
+    width: 90%;
     padding: 50px;
     border-radius: 10px;
     color:white;
@@ -63,4 +65,64 @@ justify-content: center;
 
 .course-library-content-text i{
     color :rgb(208, 223, 3); 
+}
+
+.compare-libraries-container{
+    width: 100%;
+    padding: 30px;
+}
+.compare-libraries-title{
+    margin-bottom: 20px;
+}
+
+.compare-libararies-wrapper{
+    width: 100%;
+    display: flex;
+}
+
+.compare-libraries-content-div{
+    width: 40%;
+    flex: 1;
+    flex-basis: 40%;
+    padding-right: 30px;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.italic-text{
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.explore-libraries-btn{
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 20px;
+    
+    background-image: url('../../../images/skill_page/dots.png');;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.explore-black-btn{
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    background-color: var(--primary-color);
+    transition: all ease 250ms;
+}
+.explore-black-btn:hover{
+    box-shadow: 0px 0px 20px 4px  rgba(0,0,0,0.3);
+    transform: scale(1.005);
+}
+.explore-libraries-btn-container{
+    border-radius: 10px;
+    margin-top: 50px;
+    background: linear-gradient( 100.37deg,  rgb(241, 90, 34) 0%,rgb(236, 0, 139) 100%);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

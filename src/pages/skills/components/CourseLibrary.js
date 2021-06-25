@@ -1,6 +1,7 @@
 import React from 'react'
 import './CourseLibrary.css'
 import courseLibraryPic from '../../../images/skill_page/course_library.png'
+import CompareLibraries from './CompareLibraries'
 function CourseLibrary() {
     return (
         <div className="course-library-container">
@@ -31,8 +32,11 @@ function CourseLibrary() {
                         </div>
                     </ul>
                 </div>
+             
             </div>
-            </div>
+            <CompareLibraries/>
+            
+            </div>   
         </div>
     )
 }
